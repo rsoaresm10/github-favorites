@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GITHUB FAVORITES</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>gitfav</h1>
+            <div class="search">
+                <label for="input-search">Usuario do GITHUB</label>
+                <input id="input-search" type="text" placeholder="Usuário do Github">
+                <button>&plus;</button>
+            </div>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>Usuário</th>
+                    <th>Repositorios</th>
+                    <th>Seguidores</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="impar">
+                    <td class="user">
+                        <img src="https://github.com/rsoaresm10.png" alt="">
+                        <a href="https://github.com/rsoaresm10">
+                            <p>Rafa Soares</p>
+                            <span>rsoaresm10</span>
+                        </a>
+                    </td>
+                    <td class="repositories">
+    76
+                    </td>
+                    <td class="followers">
+    9589
+                    </td>
+                    <td><button class="remove">&times;</button></td>
+                </tr>
+
+                <tr>
+                    <td class="user">
+                        <img src="https://github.com/diego3g.png" alt="">
+                        <a href="https://github.com/diego3g" target="_blank">
+                            <p>Diego fernandes</p>
+                            <span>diego3g</span>
+                        </a>
+                    </td>
+                    <td class="repositories">
+    48
+                    </td>
+                    <td class="followers">
+    22503
+                    </td>
+                    <td><button class="remove">&times;</button>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
