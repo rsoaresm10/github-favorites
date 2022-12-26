@@ -3,17 +3,17 @@
 
 -Tecnologias
 
-HTML
-CSS
-Git e Github
+HTML,
+CSS,
+Git e Github,
 Js
 
--O que aprendi
-Conceitos sobre imutabilidade
-Aplicação dos métodos try, catch e throw
-Trabalhar com o localStorage
-Consumir API do Github
-SPA
+-O que aprendi:
+Conceitos sobre imutabilidade,
+Aplicação dos métodos try, catch e throw,
+Trabalhar com o localStorage,
+Consumir API do Github,
+ e SPA
 
 Contato
 rafa100103soaresmendes@gmail.com
