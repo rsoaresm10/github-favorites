@@ -130,4 +130,5 @@ table tr:nth-child(even) {
 td .remove {
     background: none;
     border: none;
+    cursor: pointer;
 }
